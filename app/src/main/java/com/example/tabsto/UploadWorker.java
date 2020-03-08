@@ -146,7 +146,7 @@ public class UploadWorker extends AppCompatActivity {
                            user.setDepartment(value);
                        }
                        else if(c==6){
-                           String day=value.substring(0,3);
+                           String day=value.substring(0,2);
                            double d=Double.parseDouble(day);
                            if(d>31){
                                value=value.substring(1);
